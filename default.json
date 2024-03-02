@@ -1,5 +1,5 @@
 {
-	"TypeScripy: Componente React": {
+	"TypeScripy: Class Componente React Const Function": {
 		"scope": "typescriptreact",
 		"prefix": "cc",
 		"body": [
@@ -16,7 +16,7 @@
 			"}",
 		],
 	},
-	"TypeScripy: Componente React Default Function": {
+	"TypeScripy: Class Componente React Default Function": {
 		"scope": "typescriptreact",
 		"prefix": "cdf",
 		"body": [
@@ -31,6 +31,20 @@
 			"    <div></div>",
 			"  )",
 			"}",
+		],
+	},
+	"TypeScripy: Componente React Const Function": {
+		"scope": "typescriptreact",
+		"prefix": "ccf",
+		"body": [
+			"const ${1}:FC = () => {}",
+		],
+	},
+	"TypeScripy: Const Function": {
+		"scope": "typescriptreact",
+		"prefix": "cf",
+		"body": [
+			"const ${1} = () => {}",
 		],
 	},
 	"TypeScripy: Cria um slice básico do redux": {
@@ -60,7 +74,7 @@
 			"",
 			"export const { setData } = slice.actions;",
 			"export default slice.reducer;",
-			"export const selectorToasts = (state: { toasts: ${1:$TM_FILENAME_BASE}Props }): ${1:$TM_FILENAME_BASE}Props => state.toasts;",
+			"export const selector${1:$TM_FILENAME_BASE} = (state: { toasts: ${1:$TM_FILENAME_BASE}Props }): ${1:$TM_FILENAME_BASE}Props => state.toasts;",
 		],
 	},
 }
