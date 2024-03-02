@@ -74,7 +74,7 @@
 			"",
 			"export const { setData } = slice.actions;",
 			"export default slice.reducer;",
-			"export const selector${1:$TM_FILENAME_BASE} = (state: { toasts: ${1:$TM_FILENAME_BASE}Props }): ${1:$TM_FILENAME_BASE}Props => state.toasts;",
+			"export const selector${1:$TM_FILENAME_BASE} = (state: { ${1:$TM_FILENAME_BASE}: ${1:$TM_FILENAME_BASE}Props }): ${1:$TM_FILENAME_BASE}Props => state.${1:$TM_FILENAME_BASE};",
 		],
 	},
 }
