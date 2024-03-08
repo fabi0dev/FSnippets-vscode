@@ -47,6 +47,13 @@
 			"const ${1} = () => {}",
 		],
 	},
+	"React: Hook useState()": {
+		"scope": "typescriptreact",
+		"prefix": "ust",
+		"body": [
+			"const [${1},${2}] = useState(${3})",
+		],
+	},
 	"TypeScripy: Cria um slice básico do redux": {
 		"scope": "typescript",
 		"prefix": "rsl",
